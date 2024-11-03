@@ -5,7 +5,7 @@ import Enterprise from "./Enterprise/enterprise";
 import Online from "./Online/online";
 import Wholesale from "./Wholesale/wholesale";
 import World from "./World/world";
-import Business from "./Business/Business";
+import Business from "./Business/business";
 import Build from "./Build/build";
 import Innovation from "./Innovation/innovation";
 import Support from "./Support/support";
