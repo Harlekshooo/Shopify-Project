@@ -1,0 +1,293 @@
+
+
+.enterpriseContainer{
+    /* margin-top:5rem; */
+    background-color:#000;
+}
+
+.enterpriseInnerContainer{
+    width:90%;
+    margin:auto;
+    padding-top:5rem;
+    padding-bottom:5rem;
+}
+
+.enterpriseDetailContainer{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.enterpriseDetailHeader{
+    font-size:2.5rem;
+    font-weight:300;
+    line-height:2.5rem;
+    color:#fff;
+}
+
+.enterpriseDetailParagraph{
+    font-size:0.9rem;
+    font-weight:200;
+    color:#9797a2;
+}
+
+.enterpriseSliderContainer{
+    padding-top:4rem;
+}
+
+.enterpriseSliderCard{
+    width:60%;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.enterpriseSliderImgContainer{
+    width:100%;
+}
+
+.enterpriseSliderImg{
+    width:100%;
+    border-radius:1rem;
+}
+
+.enterpriseSliderDetailsContainer{
+    padding-top:1.5rem;
+}
+
+.enterpriseSliderDetailsHeader{
+    font-size:1rem;
+    font-weight:300;
+    color:#fff;
+}
+
+.enterpriseSliderDetailsMessage{
+    padding-top:0.4rem;
+    font-size:0.9rem;
+    font-size:300;
+    color:#9797a2;
+}
+
+.enterprisePlanBtnContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:4rem;
+}
+
+.enterprisePlanBtn{
+    font-size:1rem;
+    font-weight:600;
+    width:100%;
+    height:3rem;
+    background-color:#000;
+    color:#fff;
+    border:0.15rem solid #fff;
+    border-radius:2rem;
+}
+
+.enterpriseStaticContainer{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .enterpriseDetailContainer{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:last baseline;
+    }
+
+    .enterpriseDetailHeader{
+        width:55%;
+    }
+    
+    .enterpriseDetailParagraph{
+        line-height:1.1rem;
+        width:35%;
+    }
+
+    .enterprisePlanBtn{
+        width:32%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .enterpriseDetailHeader{
+        width:80%;
+    }
+    
+    .enterpriseDetailParagraph{
+        line-height:1.5rem;
+        width:30%;
+        font-size:1.1rem;
+    }
+
+    .enterprisePlanBtn{
+        width:25%;
+        /* font-size:0.9rem; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .enterpriseDetailHeader{
+        width:50%;
+        font-size:3.5rem;
+        line-height:3.8rem;
+    }
+    
+    .enterpriseDetailParagraph{
+        line-height:1.5rem;
+        width:27%;
+        font-size:1.25rem;
+    }
+
+    .enterprisePlanBtn{
+        width:25%;
+        /* font-size:0.9rem; */
+    }
+
+    .enterpriseSliderContainer{
+        display:none;
+    }
+
+    .enterpriseStaticContainer{
+        padding-top:4rem;
+        display:flex;
+        gap:1rem;
+    }
+    
+    .enterpriseSliderCard{
+        width:100%;
+        padding-left:0rem;
+        padding-right:0rem;
+    }
+
+    .enterpriseSliderImg{
+        height:100%;
+    }
+
+    .enterpriseSliderImgContainer{
+        height:15rem;
+    }
+
+    .enterpriseSliderDetailsHeader{
+        font-size:1.3rem;
+    }
+    
+    .enterpriseSliderDetailsMessage{
+        font-size:1.1rem;
+    }
+
+    .enterprisePlanBtn{
+        width:24%;
+        height:3.5rem;
+        font-size:1.15rem;
+    }
+
+    .enterprisePlanBtnContainer{
+        margin-top:2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1120px) {
+
+    .enterpriseDetailHeader{
+        width:65%;
+    }
+
+    .enterpriseDetailParagraph{
+        width:32%;
+    }
+}

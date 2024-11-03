@@ -1,0 +1,230 @@
+
+
+.onlineContainer{
+    background-color:#000;
+}
+
+.onlineInnerContainer{
+    width:90%;
+    margin:auto;
+}
+
+.onlineHeaderSection{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.onlineHeaderLink{
+    color:#30deee;
+    text-decoration:none;
+}
+
+.onlineMainHeader{
+    font-size:2.5rem;
+    font-weight:300;
+    line-height:2.5rem;
+    padding-top:1rem;
+}
+
+.onlineParagraph{
+    font-size:0.9rem;
+    line-height:1rem;
+    color:#9797a2;
+}
+
+.onlineImgSecton{
+    margin-top:3rem;
+    padding-bottom:3rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.onlineOtherImgContainer{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.onlineImgContainer1{
+    background-color:#012726;
+    border-radius:1rem;
+}
+
+.onlineImg1{
+    width:100%;
+}
+
+.onlineDesktopImg1{
+    display:none;
+}
+
+.onlineImg1Details{
+    width:90%;
+    margin:auto;
+}
+
+.onlineImg1Header{
+    font-size:1rem;
+    font-weight:400;
+}
+
+.onlineImg1Message{
+    font-size:0.9rem;
+    font-weight:400;
+    color:#9dabad;
+    padding-top:0.7rem;
+}
+
+.onlineImg1Link{
+    display:block;
+    font-size:0.9rem;
+    font-weight:400;
+    color:#9dabad;
+}
+
+.otherOnlineImgCard{
+    background-color:#012726;
+    border-radius:1rem;
+    padding-bottom:2rem;
+}
+
+.otherOnlineImg{
+    width:100%;
+}
+
+.onlineImg4Link{
+    font-size:0.9rem;
+    font-weight:400;
+    color:#9dabad;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .onlineInnerContainer{
+        width:93%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .onlineInnerContainer{
+        width:90%;
+    }
+
+    .onlineHeaderSection{
+        justify-content:space-between;
+        flex-direction:row;
+        align-items:last baseline;
+    }
+
+    .onlineHeaderContainer{
+        width:60%;
+    }
+    
+    .onlineParagraphContainer{
+        width:30%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .onlineHeaderLink{
+        font-size:1.2rem;
+    }
+
+    .onlineMainHeader{
+        font-size:3.2rem;
+        font-weight:400;
+        line-height:3.5rem;
+        padding-top:1.5rem;
+    }
+    
+    .onlineParagraph{
+        font-size:1.1rem;
+        line-height:1.4rem;
+    }
+
+    .onlineImg1{
+        display:none;
+    }
+
+    .onlineDesktopImg1{
+        display:block;
+        width:100%;
+    }
+
+    .onlineOtherImgContainer{
+        display:flex;
+        flex-direction:row;
+        gap:1rem;
+    }
+}

@@ -1,0 +1,429 @@
+
+
+.heroContainer{
+    overflow-x:hidden;
+}
+
+.heroInnerContainer{
+    /* height:120vh; */
+}
+
+.heroVideoContainer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+    overflow-x:hidden;
+    position:absolute;
+    z-index:-11;
+}
+
+.heroBodyContainer{
+   width:90%;
+   margin:auto;
+}
+
+.heroHeaderContainer{
+    padding-top:10rem;
+}
+
+.heroMainHeader{
+    font-size:2.6rem;
+    font-weight:300;
+    color:#fff;
+}
+
+.heroSlidingHeaderContainer{
+    /* padding-top:1rem;
+    padding-bottom:1rem; */
+    height:3rem;
+}
+
+.heroSlidingHeaderWrap{
+    height:100%;
+    /* padding-top:1rem;
+    padding-bottom:1rem; */
+}
+
+.heroSlidingHeader{
+    font-size:2rem;
+    font-weight:300;
+    color:#fff;
+    height:100%;
+    /* line-height:2.5rem; */
+    /* height:100%;
+    width:100%; */
+    display:block;
+    /* margin-bottom:1rem; */
+    /* margin-top:1rem; */
+}
+
+.heroParagraphSection{
+    width:50%;
+    margin-top:1rem;
+}
+
+.heroParagraph{
+    color:#fff;
+    font-size:1.2rem;
+}
+
+.heroInnerParagraph{
+    display:block;
+    text-transform:capitalize;
+}
+
+.heroFooter{
+    margin-top:1.5rem;
+    display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+}
+
+.innerHeroFooter{
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+}
+
+.heroFooterTrial{
+    height:2.3rem;
+    font-size:1rem;
+    font-weight:600;
+    border:none;
+    border-radius:2rem;
+    color:#000;
+}
+
+.heroFooterParagraph{
+    font-size:1rem;
+    text-align:center;
+    color:#fff;
+}
+
+.heroFooterBuild{
+    height:2rem;
+    font-size:1rem;
+    border:none;
+    border-radius:2rem;
+    color:#fff;
+    background-color:#ffffff2a;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0.5rem;
+}
+
+.heroFooterIcon{
+    font-size:0.7rem;
+    color:#ffffff9a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .heroBodyContainer{
+        width:92%;
+        margin:auto;
+     }
+
+    .heroMainHeader{
+        font-size:2.7rem;
+    }
+
+    .heroSlidingHeaderContainer{
+        /* padding-top:1.2rem;
+        padding-bottom:1.2rem; */
+    }
+
+    .heroSlidingHeaderWrap{
+        height:100%;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+
+    .heroSlidingHeader{
+        font-size:2.2rem;
+        line-height:0rem;
+        margin-top:0.2rem;
+        margin-bottom:0.6rem;
+    }
+
+    .heroParagraphSection{
+        width:80%;
+        margin-top:1rem;
+    }
+
+    .heroParagraph{
+        font-size:1.1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .heroVideo{
+        width:100%;
+    }
+
+    .heroMainHeader{
+        font-size:2.8rem;
+    }
+
+    .heroSlidingHeaderWrap{
+        height:100%;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+
+    .heroSlidingHeader{
+        font-size:2.4rem;
+        /* line-height:2.18rem; */
+        line-height:0rem;
+        margin-top:0.2rem;
+        margin-bottom:0.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .heroVideo{
+        width:100%;
+    }
+
+    .heroHeaderContainer{
+        padding-top:15rem;
+    }
+
+    .heroMainHeader{
+        font-size:2.9rem;
+    }
+
+    .heroSlidingHeaderWrap{
+        height:100%;
+        padding-top:1rem;
+        padding-bottom:1rem;
+    }
+
+    .heroSlidingHeader{
+        font-size:2.7rem;
+        line-height:0rem;
+        margin-top:0.2rem;
+        margin-bottom:0.8rem;
+    }
+
+    .heroFooter{
+        flex-direction:row;
+        justify-content:space-between;
+        width:95%;
+        gap:0rem;
+    }
+    
+    .innerHeroFooter{
+        flex-direction:row;
+        width:60%;
+    }
+
+    .heroFooterTrial{
+        width:9rem;
+        height:2.5rem;
+    }
+
+    .heroFooterParagraph{
+        width:70%;
+        text-align:left;
+    }
+    
+    .heroFooterBuild{
+        background-color:unset;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .heroHeaderContainer{
+        padding-top:12rem;
+    }
+
+    .heroMainHeader{
+        font-size:3.4rem;
+    }
+
+    .heroSlidingHeaderWrap{
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+
+    .heroSlidingHeader{
+        font-size:3.3rem;
+        margin-top:0.4rem;
+        margin-bottom:0.9rem;
+    }
+
+    .heroParagraphSection{
+        width:35%;
+        margin-top:2rem;
+    }
+
+    .innerHeroFooter{
+        width:60%;
+    }
+
+    .heroFooterParagraph{
+        width:38%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .heroHeaderContainer{
+        padding-top:19rem;
+    }
+
+    .heroMainHeader{
+        font-size:5rem;
+    }
+
+    .heroSlidingHeaderWrap{
+        padding-top:2rem;
+        padding-bottom:2rem;
+    }
+
+    .heroSlidingHeader{
+        font-size:4.8rem;
+        margin-top:0.4rem;
+        margin-bottom:1.2rem;
+    }
+
+    .heroParagraphSection{
+        width:40%;
+        margin-top:4rem;
+    }
+
+    .heroParagraph{
+        font-size:1.3rem;
+    }
+
+    .innerHeroFooter{
+        width:60%;
+        align-items:center;
+    }
+
+    .heroFooterParagraph{
+        width:38%;
+        font-size:1.1rem;
+    }
+}

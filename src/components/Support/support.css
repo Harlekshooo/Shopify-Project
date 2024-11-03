@@ -1,0 +1,395 @@
+
+
+.supportContainer{
+    background-color:#041e18;
+}
+
+.supportInnerContainer{
+    width:90%;
+    margin:auto;
+    padding-top:5rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.supportDetailsHeader{
+    font-size:1.8rem;
+    font-weight:400;
+}
+
+.supportDetailsParagraph{
+    padding-top:1rem;
+    color:#99b3ad;
+    font-size:0.95rem;
+}
+
+.supportDetailsLink{
+    color:#99b3ad;
+    text-transform:capitalize;
+}
+
+.supportDetailsFinanceOuterContainer{
+    padding-top:2rem;
+}
+
+.supportDetailsFinanceContainer{
+    display:flex;
+    gap:1rem;
+    padding-top:1.5rem;
+}
+
+.supportDetailsFinanceLine{
+    background-color:#36f4a4;
+    height:3rem;
+    width:0.1rem;
+    border:none;
+}
+
+.supportDetailsFinanceHeader{
+    font-size:1.5rem;
+    font-weight:400;
+}
+
+.supportDetailsFinanceParagraph{
+    font-size:0.9rem;
+    color:#99b3ad;
+}
+
+.supportImgSection{
+    display:block;
+}
+
+.supportImgContainer{
+    width:45vw;
+    height:10vh;
+}
+
+.supportImg{
+    width:100%;
+    border-radius:0.6rem;
+}
+
+.supportImgNoteContainer{
+    width:70%;
+    background-color:#072720;
+    padding:1rem;
+    border:0.01rem solid #4f4e4e9d;
+    border-radius:0.5rem;
+    position:relative;
+    left:5rem;
+    bottom:5.5rem;
+}    
+
+.supportImgNote{
+    font-size:1.3rem;
+    font-weight:350;
+    line-height:1.7rem;
+}
+
+.supportImgDetails{
+    padding-top:1.5rem;
+}
+
+.supportImgName{
+    text-transform:capitalize;
+    font-size:0.9rem;
+    font-weight:350;
+}
+
+.supportImgPosition{
+    font-size:1rem;
+    font-weight:350;
+}
+
+.supportImgLinkPosition{
+    text-transform:capitalize;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .supportImgContainer{
+        width:50vw;
+        height:20vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .supportImgContainer{
+        width:48vw;
+        height:27vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .supportInnerContainer{
+        flex-direction:row-reverse;
+        justify-content:space-between;
+    }
+
+    .supportImgSection{
+        /* height:80vh; */
+    }
+
+    .supportImg{
+        height:100%;
+    }
+
+    .supportImgContainer{
+        width:25vw;
+        height:50vh;
+        object-position:right;
+    }
+
+    .supportImgNoteContainer{
+        bottom:12rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .supportImgNoteContainer{
+        bottom:9.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .supportDetailsSection{
+        width:50%;
+    }
+
+    .supportDetailsHeader{
+        font-size:3rem;
+        line-height:4rem;
+        width:60%;
+    }
+    
+    .supportDetailsParagraph{
+        width:79%;
+        font-size:1.25rem;
+    }
+
+    .supportDetailsFinanceOuterContainer{
+        /* padding-top:5rem; */
+    }
+
+    .supportDetailsFinanceLine{
+        height:4rem;
+    }
+
+    .supportDetailsFinanceHeader{
+        font-size:1.9rem;
+    }
+    
+    .supportDetailsFinanceParagraph{
+        font-size:1.2rem;
+    }
+
+    .supportImgSection{
+        width:50%;
+    }
+    
+    .supportImgContainer{
+        width:25vw;
+        height:40vh;
+    }
+
+    .supportImgNoteContainer{
+        width:80%;
+        bottom:4.5rem;
+    }
+
+    .supportImgNote{
+        /* width:95%; */
+        font-size:2rem;
+        line-height:2.5rem;
+    }
+
+    .supportImgName{
+        font-size:1.2rem;
+    }
+    
+    .supportImgPosition{
+        font-size:1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .supportDetailsHeader{
+        width:70%;
+    }
+    
+    .supportDetailsParagraph{
+        width:93%;
+    }
+
+    .supportDetailsSection{
+        width:40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    .supportImgNoteContainer{
+        width:70%;
+        bottom:5.5rem;
+    }
+}
+

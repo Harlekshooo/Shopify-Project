@@ -1,0 +1,531 @@
+
+
+.backupContainer{
+    margin-top:5rem;
+    background-color:#000;
+    border-top-left-radius:3rem;
+    border-top-right-radius:3rem;
+}
+
+.backupInnerContainer{
+    padding-top:7rem;
+}
+
+.backupHeader{
+    font-size:2.8rem;
+    font-weight:350;
+    line-height:3rem;
+    width:91%;
+    margin:auto;
+}
+
+.backupParagraph{
+    padding-top:2rem;
+    width:91%;
+    margin:auto;
+}
+
+.backupInnerParagraphGrey{
+    color:#71717a;
+    font-size:2.5rem;
+    font-weight:350;
+    line-height:2.4rem;
+}
+
+.backupInnerParagraphWhite{
+    color:#fff;
+    font-size:2.5rem;
+    font-weight:350;
+    line-height:2.4rem;
+}
+
+.backupSliderContainer{
+    margin-top:3rem;
+}
+
+.backupSliderGroup1{
+    margin-right:1.5rem;
+}
+
+.backupSliderGroup1Wrap{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    /* width:100%; */
+    height:30vh;
+    overflow-x:scroll;
+}
+
+.backupGroupImage{
+    width:60%;
+    height:100%;
+    border-radius:0.7rem;
+    /* position:relative; */
+    /* overflow:hidden; */
+}
+
+.backupGroupImageSlim{
+    width:30%;
+    height:100%;
+    border-radius:0.7rem;
+    /* position:relative; */
+    /* overflow:hidden; */
+}
+
+/* .backupGroupImageWrap{
+    height:100%;
+    width:70%;
+}
+
+.backupGroupSlimImageWrap{
+    height:100%;
+    width:30%;
+} */
+
+.backupSliderGroup2{
+    margin-right:1.5rem;
+}
+
+.backupSliderGroup2Wrap{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    /* width:100%; */
+    height:30vh;
+    overflow-x:scroll;
+}
+
+.backupSliderGroup3{
+    margin-left:1.5rem;
+}
+
+.backupSliderGroup3Wrap{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    /* width:100%; */
+    height:30vh;
+    overflow-x:scroll;
+}
+
+.backupSliderGroup4{
+    margin-left:1.5rem;
+}
+
+.backupSliderGroup4Wrap{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    /* width:100%; */
+    height:30vh;
+    overflow-x:scroll;
+}
+
+.backupSliderGroup5{
+    margin-left:1.5rem;
+}
+
+.backupSliderGroup5Wrap{
+    display:flex;
+    gap:0.5rem;
+    width:100%;
+    /* width:100%; */
+    height:30vh;
+    overflow-x:scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .backupHeader{
+        width:82%;
+        margin-left:1rem;
+    }
+
+    .backupParagraph{
+        width:82%;
+        margin-left:1rem;
+    }
+
+    .backupSliderGroup1Wrap{
+        height:35vh;
+    }
+
+    .backupSliderGroup2Wrap{
+        height:35vh;
+    }
+
+    .backupSliderGroup3Wrap{
+        height:35vh;
+    }
+
+    .backupSliderGroup4Wrap{
+        height:35vh;
+    }
+
+    .backupSliderGroup5Wrap{
+        height:35vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .backupHeader{
+        width:90%;
+        /* margin-left:2rem; */
+        font-size:2.9rem;
+        margin:auto;
+    }
+
+    .backupParagraph{
+        width:90%;
+        /* margin-left:2rem; */
+        margin:auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .backupHeader{
+        letter-spacing:-0.1rem;
+    }
+
+    .backupSliderGroup1Wrap{
+        height:50vh;
+    }
+
+    .backupSliderGroup2Wrap{
+        height:50vh;
+    }
+
+    .backupSliderGroup3Wrap{
+        height:50vh;
+    }
+
+    .backupSliderGroup4Wrap{
+        height:50vh;
+    }
+
+    .backupSliderGroup5Wrap{
+        height:50vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .backupHeader{
+        width:87%;
+        margin:auto;
+        margin-left:2rem;
+        font-size:3.2rem;
+    }
+
+    .backupParagraph{
+        width:87%;
+        margin:auto;
+        margin-left:2rem;
+    }
+
+    .backupSliderGroup1{
+        margin-right:0rem;
+        margin-left:2rem;
+    }
+    
+    .backupSliderGroup2{
+        margin-right:0rem;
+        margin-left:2rem;
+    }
+
+    .backupSliderGroup3{
+        margin-left:2rem;
+    }
+
+    .backupSliderGroup4{
+        margin-left:2rem;
+    }
+
+    .backupSliderGroup5{
+        margin-left:2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .backupHeader{
+        width:87%;
+        margin-left:3rem;
+        font-size:4.5rem;
+        line-height:4.5rem;
+    }
+
+    .backupParagraph{
+        width:87%;
+        margin-left:3rem;
+    }
+
+    .backupInnerParagraphGrey{
+        font-size:3.3rem;
+        line-height:3.8rem;
+    }
+    
+    .backupInnerParagraphWhite{
+        font-size:3.3rem;
+        line-height:3.8rem;
+    }
+
+    .backupSliderGroup1{
+        margin-left:3rem;
+    }
+    
+    .backupSliderGroup2{
+        margin-left:3rem;
+    }
+
+    .backupSliderGroup3{
+        margin-left:3rem;
+    }
+
+    .backupSliderGroup4{
+        margin-left:3rem;
+    }
+
+    .backupSliderGroup5{
+        margin-left:3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .backupSliderGroup1Wrap{
+        height:46vh;
+    }
+
+    .backupSliderGroup2Wrap{
+        height:46vh;
+    }
+
+    .backupSliderGroup3Wrap{
+        height:46vh;
+    }
+
+    .backupSliderGroup4Wrap{
+        height:46vh;
+    }
+
+    .backupSliderGroup5Wrap{
+        height:46vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    .backupHeader{
+        width:86%;
+        margin-left:5.5rem;
+        font-size:4.3rem;
+    }
+
+    .backupParagraph{
+        width:86%;
+        margin-left:5.5rem;
+    }
+
+    .backupSliderGroup1{
+        margin-left:5.5rem;
+        margin-right:5rem;
+    }
+    
+    .backupSliderGroup2{
+        margin-left:5.5rem;
+        margin-right:5rem;
+    }
+
+    .backupSliderGroup3{
+        margin-left:5.5rem;
+        margin-right:5rem;
+    }
+
+    .backupSliderGroup4{
+        margin-left:5.5rem;
+        margin-right:5rem;
+    }
+
+    .backupSliderGroup5{
+        margin-left:5.5rem;
+        margin-right:5rem;
+    }
+
+    .backupSliderGroup1Wrap{
+        height:38vh;
+    }
+
+    .backupSliderGroup2Wrap{
+        height:38vh;
+    }
+
+    .backupSliderGroup3Wrap{
+        height:38vh;
+    }
+
+    .backupSliderGroup4Wrap{
+        height:38vh;
+    }
+
+    .backupSliderGroup5Wrap{
+        height:38vh;
+    }
+}
+
+

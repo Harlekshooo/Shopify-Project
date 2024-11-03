@@ -1,0 +1,210 @@
+
+
+.headerContainer{
+    background-color:#00000000;
+}
+
+.headerInnerContainer{
+    width:90%;
+    margin:auto;
+    height:5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.headerLogoSection{
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+
+.headerLogoContainer{
+    width:6rem;
+}
+
+.headerLogo{
+    width:100%;
+}
+
+.headerNavListContainer{
+    display:none;
+}
+
+.menuSection{
+    display:flex;
+    gap:2rem;
+}
+
+.menuLogin{
+    display:none;
+}
+
+.freeTrialContainer{
+    width:100%;
+    /* margin:auto; */
+}
+
+.freeTrial{
+    color:#fff;
+    font-size:1rem;
+}
+
+.menuIcon{
+    color:#fff;
+    font-size:1.8rem;
+}
+
+.menuRotate{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .headerInnerContainer{
+        width:93%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .headerInnerContainer{
+        width:90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1120px) {
+
+    .headerInnerContainer{
+        width:92%;
+    }
+
+    .headerLogoSection{
+        width:70%;
+        gap:3rem;
+    }
+
+    .headerLogoContainer{
+        width:8rem;
+    }
+
+    .headerNavListContainer{
+        list-style:none;
+        display:flex;
+        gap:1.5rem;
+        /* align-items:last baseline; */
+    }
+    
+    .headerNavList{
+        text-transform:capitalize;
+        font-size:1rem;
+    }
+    
+    .headerNavIcon{
+        font-size:1rem;
+        margin-left:0.5rem;
+        padding-top:0.2rem;
+    }
+
+    .menuSection{
+        width:23%;
+        gap:1rem;
+        align-items:center;
+    }
+
+    .menuLogin{
+        font-size:1.1rem;
+        text-decoration:none;
+        color:#fff;
+        display:block;
+        width:27%;
+    }
+    
+    .freeTrialContainer{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:2.5rem;
+        background-color:#fff;
+        border-radius:2rem;
+        width:8rem;
+    }
+
+    .freeTrial{
+        font-weight:600;
+        color:#000;
+        text-decoration:none;
+    }    
+    
+    .menuContainer{
+        display:none;
+    }
+}
+

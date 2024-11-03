@@ -1,0 +1,434 @@
+
+
+.innovationContainer{
+    background-color:#041e18;
+}
+
+.innerInnovationContainer{
+    padding-top:4rem;
+    width:93%;
+    margin:auto;
+}
+
+.innovationHeader{
+    font-size:1.8rem;
+    font-weight:400;
+    width:70%;
+}
+
+.innovatonParagraph{
+    font-size:0.95rem;
+    margin-top:1.5rem;
+    color:#99b3ad;
+}
+
+.innovationCardsContainer{
+    margin-top:3rem;
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.innovationCard1{
+    background:linear-gradient(135deg, #151516 65%, #718397 120%);
+    padding:1.5rem 0rem 1.5rem 1.5rem;
+    border-radius:0.5rem;
+}
+
+.innovationCard1ImgContainer{
+    width:100%;
+}
+
+.innovationCard1ImgWrap{
+    padding:0 1rem;
+}
+
+.innovationCard1Img{
+    width:100%;
+}
+
+.innovationCardDetailsContainer{
+    margin-top:1.5rem;
+}
+
+.innovationCardDetailsHeader{
+    font-size:1rem;
+    font-weight:400;
+}
+
+.innovationCardDetailsLink{
+    /* font-size:0.8rem; */
+    color:#99b3ad;
+}
+
+.innovationCardDetailsParagraph{
+    font-size:0.8rem;
+    line-height:1.3rem;
+    color:#99b3ad;
+}
+
+.innovationCard2{
+    background-color:#073329;
+    padding:2rem 0rem 1rem 1rem;
+    border-radius:0.5rem;
+    overflow-x:hidden;
+}
+
+.outerInnovationCard2ImgContainer{
+    padding:2rem 0;
+    /* display:flex; */
+    justify-content:center;
+}
+
+.innovationCard2ImgContainer{
+    display:flex;
+    position:relative;
+    /* height:36vh; */
+    /* height:100%; */
+}
+
+.innovationRowImg1{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.innovationRowImg1Wrap{
+    transform:skewY(10deg);
+    position:relative;
+    left:1rem;
+    width:30%;
+}
+
+.innovationRowImg2{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.innovationRowImg2Wrap{
+    transform:skewY(10deg);
+    position:relative;
+    /* left:3rem; */
+    right:1rem;
+    z-index:2;
+    width:30%;
+    /* bottom:20rem; */
+}
+
+.innovationRowImg3{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.innovationRowImg3Wrap{
+    position:relative;
+    transform:skewY(10deg);
+    right:3rem;
+    z-index:3;
+    width:30%;
+    /* left:4rem; */
+    /* bottom:40rem; */
+}
+
+.innovationRowImg4{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.innovationRowImg4Wrap{
+    position:relative;
+    transform:skewY(10deg);
+    right:5rem;
+    z-index:4;
+    width:30%;
+    /* left:3rem; */
+    /* bottom:60rem; */
+}
+
+.innovationRowImg5{
+    width:100%;
+    border-radius:0.5rem;
+}
+
+.innovationRowImg5Wrap{
+    position:relative;
+    transform:skewY(10deg);
+    right:7rem;
+    z-index:5;
+    width:30%;
+    /* bottom:80rem; */
+}
+
+.innovationCard2DetailsContainer{
+    margin-top:2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .innovationCardDetailsParagraph{
+        padding-top:0.7rem;
+    }
+    
+    .innovationCard2ImgContainer{
+        /* left:1.5rem; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .innovationHeader{
+        width:80%;
+        line-height:2.3rem;
+    }
+
+    .innovationCard2ImgContainer{
+        /* left:3rem; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .innerInnovationContainer{
+        width:90%;
+    }
+
+    .innovationHeader{
+        width:100%;
+    }
+
+    .innovationCard2ImgContainer{
+        /* left:8rem; */
+        /* margin:3.5rem 0; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .innerInnovationContainer{
+        width:92%;
+    }
+
+    .innovationCard2ImgContainer{
+        /* left:11rem; */
+        /* margin:6.5rem 0; */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:900px) {
+
+    .innerInnovationContainer{
+        width:89%;
+    }
+
+    .innovationHeader{
+        font-size:2.7rem;
+        width:100%;
+    }
+    
+    .innovatonParagraph{
+        font-size:1.2rem;
+        margin-top:2rem;
+    }
+
+    .innovationCardsContainer{
+        flex-direction:row;
+    }
+
+    .innovationCard1{
+        width:65%;
+        padding:1rem 0rem 1rem 1rem;
+    }
+
+    .innovationCard1ImgContainer{
+        width:100%;
+        /* margin:auto; */
+    }
+    
+    .innovationCard2{
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+    }
+
+    .outerInnovationCard2ImgContainer{
+        width:100%;
+    }
+
+    .innovationCard2ImgContainer{
+        /* height:100%; */
+        width:38vw;
+        /* margin:2rem 0; */
+    }
+
+    .innovationRowImg1{
+        height:30vh;
+    }
+
+    .innovationRowImg2{
+        height:30vh;
+    }
+
+    .innovationRowImg3{
+        height:30vh;
+    }
+
+    .innovationRowImg4{
+        height:30vh;
+    }
+
+    .innovationRowImg5{
+        height:30vh;
+    }
+
+    .innovationCard2DetailsContainer{
+        /* margin-top:9rem; */
+    }
+
+    .innovationCardDetailsHeader{
+        font-size:1.3rem;
+    }
+
+    .innovationCardDetailsParagraph{
+        font-size:1.2rem;
+        line-height:1.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1200px) {
+
+    .innovationCard2ImgContainer{
+        width:35vw;
+    }
+}

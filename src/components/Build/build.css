@@ -1,0 +1,429 @@
+
+
+.buildContainer{
+    background-color:#000;
+}
+
+.buildInnerContainer{
+    padding-top:2rem;
+}
+
+.buildSection{
+    background-color:#041e18;
+    padding-top:2rem;
+    border-top-left-radius:2rem;
+    border-top-right-radius:2rem;
+}
+
+.buildHeader{
+    width:90%;
+    margin:auto;
+    font-size:3rem;
+    font-weight:400;
+    line-height:3rem;
+    text-align:center;
+}
+
+.buildBodySection{
+    margin-top:4rem;
+    display:flex;
+    flex-direction:column;
+    gap:2rem;
+}
+
+.buildBodyDetailsContainer{
+    width:90%;
+    margin:auto;
+}
+
+.buildHeaderDetails{
+    font-size:1.9rem;
+    font-weight:300;
+}
+
+.buildRatingDetailsContainer{
+    display:flex;
+    justify-content:space-between;
+    margin-top:3rem;
+}
+
+.buildDetailsRating1{
+    width:47%;
+}
+.buildDetailsRating2{
+    width:47%;
+}
+
+.buildRatingLine{
+    border: 0.1rem solid #ffffff22
+}
+
+.buildDetailUpgrade{
+    text-transform:uppercase;
+    font-size:0.7rem;
+    color:#36f4a4;
+    display:flex;
+    align-items:first baseline;
+    gap:0.5rem;
+    margin-top:0.4rem;
+}
+
+.buildUpgradeIcon{
+    font-size:0.7rem;
+    color:#36f4a4;
+}
+
+.buildDetailRatingNumber{
+    font-size:3rem;
+    font-weight:400;
+}
+
+.buildDetailRatingSign{
+    font-size:1.5rem;
+    font-weight:400;
+}
+
+.buildParagraphDetailsContainer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:1rem;
+    margin-top:3rem;
+}
+
+.buildParagraphDetailsLine{
+    height:4.5rem;
+    width:0.3rem;
+    background-color:#36f4a4;
+    border:none;
+}
+
+.buildParagraphDetails{
+    color:#99b3ad;
+    font-size:0.8rem;
+}
+
+.buildLinkDetails{
+    color:#99b3ad;
+    text-transform:capitalize;
+    font-size:0.8rem;
+}
+
+.buildFooterDetails{
+    color:#99b3ad;
+    font-size:0.8rem;
+    margin-top:3rem;
+}
+
+.buildBodyImageContainer{
+    background-image:url('../../assets/build-image1.webp');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:50vh;
+}
+
+.buildBodyImg{
+    width:65%;
+    border-radius:0.5rem;
+    position:relative;
+    left:4rem;
+    top:4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:375px) {
+
+    .buildDetailRatingNumber{
+        font-size:3.3rem;
+    }
+    
+    .buildDetailRatingSign{
+        font-size:1.7rem;
+    }
+
+    .buildParagraphDetailsLine{
+        height:3.5rem;
+    }
+
+    .buildBodyImageContainer{
+        height:59vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:425px) {
+
+    .buildBodyDetailsContainer{
+        width:93%;
+    }
+
+    .buildHeaderDetails{
+        width:80%;
+    }
+
+    .buildParagraphDetailsLine{
+        height:3rem;
+    }
+
+    .buildBodyImageContainer{
+        height:67vh;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:640px) {
+
+    .buildHeaderDetails{
+        width:100%;
+        line-height:2.5rem;
+    }
+
+    .buildBodySection{
+        margin:auto;
+        width:90%;
+        margin-top:4rem;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-between;
+        gap:0rem;
+    }
+
+    .buildBodyDetailsContainer{
+        width:50%;
+        margin:0;
+    }
+
+    .buildParagraphDetailsContainer{
+        margin-top:2rem;
+    }
+
+    .buildFooterDetails{
+        margin-top:2rem;
+    }
+
+    .buildBodyImageContainer{
+        width:45%;
+        height:40vh;
+    }
+
+    .buildBodyImg{
+        width:80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .buildSection{
+        padding-top:4rem;
+    }
+
+    .buildHeader{
+        width:80%;
+    }
+
+    .buildDetailRatingNumber{
+        font-size:3.7rem;
+    }
+    
+    .buildDetailRatingSign{
+        font-size:1.9rem;
+    }
+
+    .buildBodyImageContainer{
+        height:50vh;
+    }
+
+    .buildBodyImg{
+        width:80%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+    .buildHeader{
+        width:80%;
+        font-size:4.5rem;
+        line-height:5rem;
+    }
+
+    .buildBodySection{
+        margin-top:7rem;
+    }
+
+    .buildHeaderDetails{
+        font-size:2.7rem;
+        font-weight:400;
+        line-height:3rem;
+    }
+
+    .buildDetailRatingNumber{
+        font-size:5rem;
+    }
+    
+    .buildDetailRatingSign{
+        font-size:3rem;
+    }
+
+    .buildParagraphDetails{
+        font-size:1.2rem;
+    }
+
+    .buildLinkDetails{
+        font-size:1.2rem;
+    }
+
+    .buildParagraphDetailsLine{
+        height:4rem;
+    }
+
+    .buildFooterDetails{
+        font-size:0.9rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+
+    .buildRatingDetailsContainer{
+        margin-top:5rem;
+    }
+
+    .buildDetailRatingNumber{
+        font-size:5.5rem;
+    }
+
+    .buildBodyImageContainer{
+        width:47%;
+    }
+}
